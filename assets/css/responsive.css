@@ -1,0 +1,123 @@
+/* ===================================
+   PROFESSIONAL RESPONSIVE DESIGN
+==================================== */
+
+/* ===============================
+   LARGE TABLETS (992px and below)
+=============================== */
+@media (max-width: 992px) {
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .topbar {
+    padding: 15px 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+
+/* ===============================
+   TABLETS (768px and below)
+=============================== */
+@media (max-width: 768px) {
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navlinks {
+    margin-top: 10px;
+  }
+
+  .navlinks a {
+    display: inline-block;
+    margin: 8px 10px 0 0;
+  }
+
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  .table th,
+  .table td {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+
+/* ===============================
+   MOBILE (576px and below)
+=============================== */
+@media (max-width: 576px) {
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 13px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .table {
+    font-size: 12px;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px;
+  }
+}
+
+
+/* ===============================
+   SMALL MOBILE (400px and below)
+=============================== */
+@media (max-width: 400px) {
+
+  .topbar {
+    padding: 12px;
+  }
+
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero h1 {
+    font-size: 18px;
+  }
+
+  .brand {
+    font-size: 16px;
+  }
+}
