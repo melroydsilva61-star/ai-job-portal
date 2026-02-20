@@ -159,4 +159,4 @@ INSERT INTO categories (name) VALUES
 ('Marketing'),
 ('Finance'),
 ('HR'),
-('Sales');
+('Sales');`
