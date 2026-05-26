@@ -628,3 +628,34 @@ select {
   color: #94a3b8;
   font-size: 14px;
 }
+
+/* ===============================
+   APPLICATION STATUS BADGES
+================================= */
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status.pending {
+  background: rgba(255,255,255,0.1);
+  color: #cbd5e1;
+}
+
+.status.accepted {
+  background: rgba(34,197,94,0.2);
+  color: #22c55e;
+}
+
+.status.rejected {
+  background: rgba(239,68,68,0.2);
+  color: #ef4444;
+}
+
+/* Better table spacing */
+.table td, .table th {
+  padding: 14px;
+}
