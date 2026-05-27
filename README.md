@@ -8,10 +8,9 @@ This platform allows Employers to post jobs, Job Seekers to apply, and Admin to 
 
 # 👨‍💻 Developer
 
-**Mohammed Arhan**  
+**Melroy Heldan Dsilva**  
 Full Stack Developer & AI/ML Engineer  
-Zephyr Technologies  
-🎓 MCA Graduate  
+ BCA 
 
 ---
 
